@@ -1,0 +1,21 @@
+{
+  "name": "goit-js-hw-13-countries",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
