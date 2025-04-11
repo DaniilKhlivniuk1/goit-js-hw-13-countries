@@ -17,6 +17,8 @@
     "parcel": "^2.14.4"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0"
+    "@pnotify/core": "^5.2.0",
+    "gh-pages": "^6.3.0",
+    "lodash.debounce": "^4.0.8"
   }
 }
